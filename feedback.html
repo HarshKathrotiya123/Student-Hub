@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Student Hub</title>
+</head>
+<body>
+
+<header>
+    <h1>Student Feedback</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="home.html">Student Home</a> |
+    <a href="dashboard.html">Dashboard</a> |
+    <a href="profile.html">Profile</a> |
+    <a href="events.html">Events</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+<section>
+    <h2>Feedback Form</h2>
+
+    <form action="#" method="post">
+
+        <label for="name">Student Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="department">Department:</label><br>
+        <select id="department" name="department">
+            <option>CSE</option>
+            <option>IT</option>
+            <option>CE</option>
+            <option>ME</option>
+            <option>EC</option>
+        </select><br><br>
+
+        <label>Overall Experience:</label><br>
+        <input type="radio" name="rating"> Excellent
+        <input type="radio" name="rating"> Good
+        <input type="radio" name="rating"> Average
+        <input type="radio" name="rating"> Poor
+        <br><br>
+
+        <label for="message">Your Feedback:</label><br>
+        <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit Feedback">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</section>
+
+<aside>
+    <h3>Why Your Feedback Matters</h3>
+    <p>Your suggestions help us improve the Student Hub experience for everyone.</p>
+</aside>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Student Hub. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
