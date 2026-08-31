@@ -1,4 +1,4 @@
-# 🎓 Student Hub
+# 🎓 Student Hub 
 
 ## 📌 Project Overview
 Student Hub is a simple HTML5-based website designed for students to access academic information, register, log in, view their profile, participate in events, submit feedback, and contact the administration.
