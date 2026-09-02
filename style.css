@@ -1,0 +1,485 @@
+
+
+
+/* Home  Page*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* FLEXBOX */
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CSS GRID */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+section,
+aside {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Desktop responsive layout */
+@media (min-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    aside {
+        grid-column: span 2;
+    }
+}
+
+
+
+
+
+
+/*about page*/
+
+
+/* Basic styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* FLEXBOX */
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CSS GRID */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+section,
+aside {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Mission articles */
+section:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+section:nth-child(2) article {
+    padding: 15px;
+    background-color: #eeeeee;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive desktop layout */
+@media (min-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(2) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    aside {
+        grid-column: span 2;
+    }
+}
+
+
+/*register page*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* FLEXBOX */
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CSS GRID */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Form */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main {
+        grid-template-columns: minmax(400px, 800px);
+        justify-content: center;
+    }
+
+    form {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form textarea,
+    form input[type="checkbox"],
+    form input[type="submit"],
+    form input[type="reset"] {
+        grid-column: span 2;
+    }
+}
+
+
+
+
+/*dashboard page*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* FLEXBOX */
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CSS GRID */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+section,
+aside {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Academic Summary */
+section:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+section:nth-child(2) article {
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+
+    /* Flexbox changes navigation to horizontal */
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    /* Grid changes main content to columns */
+    main {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    /* Academic cards appear in one row */
+    section:nth-child(2) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    section:nth-child(2) h2 {
+        grid-column: span 3;
+    }
+}
+
+
+
+/*Events page*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* FLEXBOX */
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CSS GRID */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+section,
+aside {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Event cards */
+section:first-child {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+section:first-child article {
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Desktop responsive layout */
+@media (min-width: 768px) {
+
+    /* FLEXBOX */
+    nav {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* GRID */
+    main {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    section:first-child {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    section:first-child h2 {
+        grid-column: span 3;
+    }
+}
